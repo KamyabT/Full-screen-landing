@@ -1,0 +1,114 @@
+$primaryColor: #926239;
+$secondaryColor: #f4f4f4;
+$mainfontfamily: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$mainFontSize: 17px;
+
+
+
+
+/*****************Main********************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*****************Header*******************/
+
+.headerMainDesign {
+    background-image: url("beach.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    h1 , p , a {
+        font-family: $mainfontfamily;
+        color: $primaryColor;
+        line-height: 1.2;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 20px;
+    }
+    a {
+        border: 1px solid $primaryColor;
+        color: $primaryColor;
+        text-decoration: none;
+        font-size: 18px;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-top: 20px;
+        &:hover {
+            background-color: $primaryColor;
+            color: white;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+/*****************Main*******************/
+
+.mainDesign {
+    font-family: $mainfontfamily;
+    font-size: $mainFontSize;
+
+    .firstSection {
+        background-color: $primaryColor;
+        padding: 20px;
+
+        p {
+            line-height: 1.6;
+            color: white;
+            text-align: center;
+        }
+    }
+    .secondSection {
+        background-color: $secondaryColor;
+        padding: 20px;
+        p {
+            color: $primaryColor;
+            text-align: center;
+            line-height: 1.6;
+        }
+    }
+    .thirdSection {
+        display: flex;
+        .div1 {
+            background-color: $primaryColor;
+            color: white;
+            font-size: $mainFontSize;
+            text-align: left;
+            padding: 20px;
+            line-height: 1.6;
+        } 
+        .div2 {
+            background-color: white;
+            color: $primaryColor;
+            font-size: $mainFontSize;
+            text-align: left;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .div3 {
+            background-color: $primaryColor;
+            color: white;
+            font-size: $mainFontSize;
+            text-align: left;
+            padding: 20px;
+            line-height: 1.6;
+        }
+    }
+}

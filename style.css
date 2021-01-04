@@ -1,0 +1,117 @@
+/*****************Main********************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*****************Header*******************/
+.headerMainDesign {
+  background-image: url("beach.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerMainDesign h1, .headerMainDesign p, .headerMainDesign a {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #926239;
+  line-height: 1.2;
+}
+
+.headerMainDesign h1 {
+  font-size: 50px;
+}
+
+.headerMainDesign p {
+  font-size: 20px;
+}
+
+.headerMainDesign a {
+  border: 1px solid #926239;
+  color: #926239;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-top: 20px;
+}
+
+.headerMainDesign a:hover {
+  background-color: #926239;
+  color: white;
+}
+
+/*****************Main*******************/
+.mainDesign {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 17px;
+}
+
+.mainDesign .firstSection {
+  background-color: #926239;
+  padding: 20px;
+}
+
+.mainDesign .firstSection p {
+  line-height: 1.6;
+  color: white;
+  text-align: center;
+}
+
+.mainDesign .secondSection {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.mainDesign .secondSection p {
+  color: #926239;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.mainDesign .thirdSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainDesign .thirdSection .div1 {
+  background-color: #926239;
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.mainDesign .thirdSection .div2 {
+  background-color: white;
+  color: #926239;
+  font-size: 17px;
+  text-align: left;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.mainDesign .thirdSection .div3 {
+  background-color: #926239;
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  padding: 20px;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=style.css.map */
